@@ -43,7 +43,7 @@ export default {
 
   beforeDestroy() {
     if (!this.closed) {
-      this.unlockScroll()
+      this.afterLeave()
     }
   },
 
